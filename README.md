@@ -1,5 +1,9 @@
 # Dotfile Windows (PowerShell)
 
+* [ConEmu](https://code.google.com/p/conemu-maximus5/) 
+* [Posh-GIT](https://github.com/dahlbyk/posh-git)
+
+
 ```
 > git clone git@github.com:dukex/dotfiles-win.git ~/src/dotfiles-win
 ```
