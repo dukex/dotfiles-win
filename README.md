@@ -20,3 +20,9 @@ Edit your ~/.gitconfig
   path = ~/src/dotfiles-win/gitconfig
 
 ```
+
+Open your profile file with ```notepad $PROFILE``` and append the follow line
+
+```
+. 'C:\Users\MYNAME\src\Alias.ps1'
+``` 
