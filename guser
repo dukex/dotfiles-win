@@ -1,0 +1,17 @@
+#!/bin/bash
+
+E_BADARGS=65
+
+if  [ "$#" -eq "2" ];
+then
+  user=$1
+  email=$2
+else
+  echo "Usage:"
+  # echo "    `basename $0` alias"
+  echo "    `basename $0` username email"
+  exit $E_BADARGS
+fi
+
+git config --global user.name $user
+git config --global user.email $email
